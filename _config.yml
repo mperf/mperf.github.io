@@ -28,7 +28,7 @@ url: "https://mattiaperfumo.it" # the base hostname & protocol for your site, e.
 github_username:  mperf
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-feed
@@ -57,6 +57,6 @@ plugins:
 #   - vendor/ruby/
 permalink: /:title/
 markdown: kramdown
-paginate: 5
-paginate_path: "/:num/"
+paginate: 1
+paginate_path: "/blog/page:num/"
 date_format: "%b %-d, %Y"
