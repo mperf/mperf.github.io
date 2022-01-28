@@ -26,28 +26,28 @@ layout: default
         {%- endfor -%}
     </ul>
 
-    <div class="pager">
+    <div class="pager" style="justify-content: center;display: flex;flex-direction: row;">
         
             {%- if paginator.previous_page %}
-            <button class="bottom-button">
+            <button class="button">
                 <a href="{{ paginator.previous_page_path | relative_url }}"
-                   class="bottom-button">{{ paginator.previous_page }}</a>
+                   class="button">{{ paginator.previous_page }}</a>
             </button>
             {%- else %}
             
-                <div class="pager-edge">•</div>
+                
             
             {%- endif %}
 
-                <div class="bottom-button">{{ paginator.page }}</div>
+                <div class="button">{{ paginator.page }}</div>
             
             {%- if paginator.next_page %}
-            <button class="bottom-button"><a href="{{ paginator.next_page_path | relative_url }}">
+            <button class="button"><a href="{{ paginator.next_page_path | relative_url }}">
                 {{ paginator.next_page }}</a> </button>
             
             {%- else %}
             
-                <div class="pager-edge">•</div>
+                
             
             {%- endif %}
         
