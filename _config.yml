@@ -50,7 +50,7 @@ plugins:
 disqus:
   shortname: mattiaperfumo
 
-google_analytics: UA-218937320-1
+google_analytics: G-3FH43DHH4Z
 
 
 permalink: /:title/
