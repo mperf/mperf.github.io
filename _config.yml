@@ -50,6 +50,9 @@ plugins:
 disqus:
   shortname: mattiaperfumo
 
+google_analytics: UA-218937320-1
+
+
 permalink: /:title/
 markdown: kramdown
 paginate: 1
