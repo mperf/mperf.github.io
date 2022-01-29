@@ -51,6 +51,7 @@ disqus:
   shortname: mattiaperfumo
 
 google_analytics: UA-218937320-1
+google_ads: ca-pub-5824807230614614
 
 
 permalink: /:title/
