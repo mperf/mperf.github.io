@@ -5,7 +5,7 @@ date:   2022-01-27 17:16:58 +0100
 categories: tests
 author: perf
 ---
-in questo articolo introdurrò il libro "linux basics for hackers"
+In questo articolo introdurrò il libro "linux basics for hackers"
 
 ## termini da sapere
 
