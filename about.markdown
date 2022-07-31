@@ -3,15 +3,17 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hi! I'm Mattia Perfumo an italian CyberSec enthusiast, ~~currently studying CyberSecurity at the university of Milano~~ (unfortunately I'm still at  IT high school,
-[caramuel roncalli](https://www.caramuelroncalli.it) of Vigevano, Italy).
+Hi! I'm Mattia Perfumo, an italian CyberSec enthusiast. I'm currently studying CyberSecurity at the university of Milan (UNIMI).
 ## Cyberchallenge.IT
 I've partecipated to the 2021 edition of the cybersecurity program [Cyberchallenge](https://www.cyberchallenge.it), with my teammates we created the [K!nd4SUS](https://k1nd4sus.it/) UniMi ctf team.
+## COlicyber.IT
+I've partecipated to the 2022 edition of the italian high school cybersecurity Olimpycs ([olicyber](https://www.olicyber.it)). I've achieved the 20th place.
 ## Certs
 - [Cyberchallenge](/assets/cyberchallengeit_2021_certificato_gara_locale.pdf)
 - [Complete flutter development course](/assets/certificate-of-completion-for-the-complete-flutter-development-bootcamp-using-dart.pdf)
+- Cisco IT Essentials
 
-## Languages im confident with
+## Languages I'm confident with
 - Java
 - Python
 - C
