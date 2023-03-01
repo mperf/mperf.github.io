@@ -25,4 +25,4 @@ The rest of my projects can be found on my [Github account](https://www.github.c
 
 ---
 
-if You want to create something cool with me, You can contact me via [Telegram](https://t.me/Perf21)
+If You want to create something cool with me, You can contact me via [Telegram](https://t.me/Perf21)

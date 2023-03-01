@@ -21,7 +21,7 @@
 title: Perf's blog
 email: info@mattiaperfumo.it
 description: >- # this means to ignore newlines until "baseurl:"
-  Segui il mio percorso per diventare ethical hacker
+  Ciao! mi chiamo Mattia Perfumo, sono uno studente di Sicurezza Informatica alla statale di Milano. In questo blog mostrerò i miei progetti o ricerche che farò durante la mia carriera
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mattiaperfumo.it" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -40,6 +40,7 @@ minima:
     youtube_channel: UC50xkdZn6v2iRTTlOn8nlYA
     youtube_channel_name: Mattia Perfumo
     linkedin: mattia-perfumo-08201013a
+    telegram: Perf21
     
 
 plugins:
