@@ -7,7 +7,7 @@ tags: [coding, compiler, compiler design, code, stackoverflow, design, formal, l
 author: Perf
 ---
 Il compilatore è un software che permette di **tradurre** un codice scritto in **HLL** (High Level Language) in **linguaggio macchina**. Consente l'effettiva esecuzione dei programmi da parte del calcolatore.
-Ma come funziona? Di seguito illustrerò da cosa è composto (per il linguaggio C) e il suo funzionamento, esponendo inoltre un mio progetto di simulatore di assembly LC-2 (Little Computer 2).
+Ma come funziona? Di seguito illustrerò da cosa è composto (per il linguaggio C) e il suo funzionamento, esponendo inoltre un mio [progetto](https://github.com/mperf/LC-2-simulator) di simulatore di assembly LC-2 (Little Computer 2).
 
 ## Premesse
 
