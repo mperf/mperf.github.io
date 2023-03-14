@@ -56,6 +56,9 @@ google_analytics: G-2WHPCJBH7P
 google_ads: ca-pub-5824807230614614
 
 
+host: 0.0.0.0
+port: 6942
+
 permalink: /:title/
 markdown: kramdown
 paginate: 4

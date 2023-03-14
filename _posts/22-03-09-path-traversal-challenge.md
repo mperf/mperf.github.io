@@ -2,7 +2,7 @@
 layout: post
 title: "Path Traversal Challenge"
 date:   2022-03-09 17:16:58 +0100
-categories: [hacking,path traversal]
+categories: [hacking]
 tags: [hacking, path traversal, CTF, challenge, LFI, RFI]
 author: Perf
 ---
