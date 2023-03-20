@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Introduzione al compiler design: compilatore per LC-2 "
-date:   2023-03-01 11:00:58 +0100
+date:   2023-03-14 11:00:58 +0100
 categories: [projects,ita]
-tags: [coding, compiler, compiler design, code, stackoverflow, design, formal, languages, forml languages,c,project,lex,yacc,lexer,lexical,analysis,lexical analysis, syntax, syntax analysis, semantic,semantic analysis]
+tags: [coding, compiler, compiler design, code, stackoverflow, design, formal, languages, formal languages,c,project,lex,yacc,lexer,lexical,analysis,lexical analysis, syntax, syntax analysis, semantic,semantic analysis, Little Computer 2, LC-2, lc2, unimi, statale di Milano]
 author: Perf
 ---
 Il compilatore è un software che permette di **tradurre** un codice scritto in **HLL** (High Level Language) in **linguaggio macchina**. Consente l'effettiva esecuzione dei programmi da parte del calcolatore.
