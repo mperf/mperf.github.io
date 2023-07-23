@@ -21,7 +21,7 @@ I've partecipated to the 2022 edition of the italian high school cybersecurity O
 
 ## Projects
 
-My latest project is the [LC-2 Simulator](https://github.com/mperf/LC-2-simulator)
+My latest project is [Mainstage](/mainstage-project/)
 
 I've developed an android mobile app, called [Garrix FanZone](https://play.google.com/store/apps/details?id=com.grxfanzone). I'm working on upload it on github.
 The rest of my projects can be found on my [Github account](https://www.github.com/mperf)
