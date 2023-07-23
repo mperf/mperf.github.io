@@ -195,7 +195,7 @@ PORT="3300"
 CLIENT_ID="xxx"
 SECRET="xxx"
 TOKEN_URL="https://accounts.spotify.com/api/token"
-MONGO_URL="mongodb://admin:Mattia2101@10.21.1.21:27017"
+MONGO_URL="xxx"
 JWT_SECRET="xxx"
 
 ```
@@ -206,7 +206,7 @@ JWT_SECRET="xxx"
 ```dockerfile=
 env_file: ./mainstage-app/.env
     environment:
-      - MONGO_URL=mongodb://admin:Mattia2101@mongodb_snm:27017
+      - MONGO_URL=xxx
       - CLIENT_ID=xxx
       - SECRET=xxx
       - TOKEN_URL=https://accounts.spotify.com/api/token
