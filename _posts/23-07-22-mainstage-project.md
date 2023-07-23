@@ -192,11 +192,11 @@ if(!validator.isEmail(user.mail)){
 ```js=
 # THESE ARE FOR LOCAL SETTINGS, FOR DOCKER REFER TO DOCKER-COMPOSE
 PORT="3300"
-CLIENT_ID="85c08f4a1b2944f6a4a56c264b546876"
-SECRET="a9d049fbac414a7abcbc4bea8f60a222"
+CLIENT_ID="xxx"
+SECRET="xxx"
 TOKEN_URL="https://accounts.spotify.com/api/token"
 MONGO_URL="mongodb://admin:Mattia2101@10.21.1.21:27017"
-JWT_SECRET="5733d6daa1eeb934cb5f24fe284ebfc352ea89fd37d8fe16d6241f52a89ac446cfa741aa2dcd00090cd5e79f2f4e2797f4b569c186153321b641749015aff129"
+JWT_SECRET="xxx"
 
 ```
 *esempio di file .env*
@@ -207,11 +207,11 @@ JWT_SECRET="5733d6daa1eeb934cb5f24fe284ebfc352ea89fd37d8fe16d6241f52a89ac446cfa7
 env_file: ./mainstage-app/.env
     environment:
       - MONGO_URL=mongodb://admin:Mattia2101@mongodb_snm:27017
-      - CLIENT_ID=85c08f4a1b2944f6a4a56c264b546876
-      - SECRET=a9d049fbac414a7abcbc4bea8f60a222
+      - CLIENT_ID=xxx
+      - SECRET=xxx
       - TOKEN_URL=https://accounts.spotify.com/api/token
       - PORT=3300
-      - JWT_SECRET=5733d6daa1eeb934cb5f24fe284ebfc352ea89fd37d8fe16d6241f52a89ac446cfa741aa2dcd00090cd5e79f2f4e2797f4b569c186153321b641749015
+      - JWT_SECRET=xxx
 
 
 ```
