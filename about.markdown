@@ -17,6 +17,7 @@ I've partecipated to the 2022 edition of the italian high school cybersecurity O
 - Java
 - Python
 - C
+- Golang
 - Dart (Flutter framework)
 
 ## Projects
