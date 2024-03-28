@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Sky Q, Sky Q Mini e i firewall"
-date:   2024-03-28 18:00:58 +0100
-categories: [networking]
+date:   2024-03-28 17:00:58 +0100
+categories: [networking, ita]
 tags: [networking, firewall, sky, sky q, sky q mini, iptables, ufw, linux, debian, ubuntu, raspbian, raspberry pi, raspberrypi, connessione asente, connessione]
 author: Perf
 ---
