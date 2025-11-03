@@ -22,9 +22,10 @@
 
 
 title: Perf's blog
-email: info@mattiaperfumo.it
-description: >- # this means to ignore newlines until "baseurl:"
-  Ciao! mi chiamo Mattia Perfumo, sono uno studente di Sicurezza Informatica alla statale di Milano. In questo blog mostrerò i miei progetti o ricerche che farò durante la mia carriera
+email: mperf21@proton.me
+description: >-
+  Cybersecurity researcher and engineer. I share projects, research notes
+  and CTF write-ups.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mattiaperfumo.it" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -32,7 +33,7 @@ url: "https://mattiaperfumo.it" # the base hostname & protocol for your site, e.
 theme: minima
 author: 
   name: Mattia Perfumo
-  email: "info@mattiaperfumo.it"
+  email: "mperf21@proton.me"
 
 minima:
   
@@ -54,9 +55,6 @@ plugins:
   
 disqus:
   shortname: mattiaperfumo
-
-google_analytics: G-2WHPCJBH7P
-google_ads: ca-pub-5824807230614614
 
 
 host: 0.0.0.0

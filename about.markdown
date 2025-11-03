@@ -3,30 +3,33 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hi! I'm Mattia Perfumo, an italian CyberSec enthusiast. I'm currently studying CyberSecurity at the university of Milan (UNIMI).
-## Cyberchallenge.IT
-I've partecipated to the 2021 edition of the cybersecurity program [Cyberchallenge](https://www.cyberchallenge.it), with my teammates we created the [K!nd4SUS](https://k1nd4sus.it/) UniMi ctf team.
-## Olicyber.IT
-I've partecipated to the 2022 edition of the italian high school cybersecurity Olimpycs ([olicyber](https://www.olicyber.it)). I've achieved the 20th place.
-## Certifications
-- [Cyberchallenge](/assets/cyberchallengeit_2021_certificato_gara_locale.pdf)
-- [Complete flutter development course](/assets/certificate-of-completion-for-the-complete-flutter-development-bootcamp-using-dart.pdf)
+Hi — I'm Mattia Perfumo, a cybersecurity student from Milan, now living in Stockholm.
+
+I recently completed a BSc in Computer Systems and Network Security at the University of Milan and I'm currently pursuing an MSc in Cybersecurity at KTH Royal Institute of Technology in Stockholm. My work sits at the intersection of secure distributed systems, container-based deployments and applied security research.
+
+### Research & teaching
+
+- Researcher on the Polymorphic Secure Service Composition project (C-WDL): co-developed a choreography-based workflow language for security & privacy in cloud-edge environments and implemented a containerised microservices platform (Docker, Kubernetes).
+- Web and Network Security Instructor at CyberChallenge.IT: delivered targeted lessons and hands-on training to students preparing for national selection.
+
+### Leadership & community
+
+- Co-founder and President of the K!nd4SUS cybersecurity team (UniMi). I lead and organize CTF training, workshops, and outreach activities since 2021.
+
+### Skills & tools
+
+- Languages & tools: Golang, C, Docker, Kubernetes, Prometheus, Grafana, Traefik, Cloudflare, MinIO, Longhorn, Lex/Yacc, GitHub Actions.
+- Languages: Italian (mother tongue), English (CEFR C1).
+
+### Projects & links
+
+- Mainstage — a recent project documented on this site: /mainstage-project/
+- Garrix FanZone — an Android app I developed (Play Store).
+- Code and other projects: https://github.com/mperf
+
+### Certifications
+- Cyberchallenge (participation certificate)
+- Complete Flutter Development Course (certificate)
 - Cisco IT Essentials
 
-## Languages I'm confident with
-- Java
-- Python
-- C
-- Golang
-- Dart (Flutter framework)
-
-## Projects
-
-My latest project is [Mainstage](/mainstage-project/)
-
-I've developed an android mobile app, called [Garrix FanZone](https://play.google.com/store/apps/details?id=com.grxfanzone). I'm working on upload it on github.
-The rest of my projects can be found on my [Github account](https://www.github.com/mperf)
-
----
-
-If You want to create something cool with me, You can contact me via [Telegram](https://t.me/Perf21)
+If you'd like to collaborate or chat, get in touch — I'm reachable on [Telegram](https://t.me/Perf21) or via my GitHub profile.
