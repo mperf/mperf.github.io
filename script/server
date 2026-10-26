@@ -1,3 +1,4 @@
 #!/bin/sh
-
-bundle exec jekyll serve
+set -eu
+cd "$(dirname "$0")/.."
+bundle exec jekyll serve "$@"

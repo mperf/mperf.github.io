@@ -1,6 +1,4 @@
 #!/bin/sh
-
-set -e
-
-gem install bundler
+set -eu
+cd "$(dirname "$0")/.."
 bundle install
