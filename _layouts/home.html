@@ -9,53 +9,33 @@ layout: default
 
   {{ content }}
 
-
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
+  <section data-language-browser data-page-size="{{ site.paginate | default: 4 }}" aria-label="Posts">
+    <div class="post-list-header">
+      {%- if page.list_title -%}
+        <h2 class="post-list-heading" tabindex="-1">{{ page.list_title }}</h2>
+      {%- endif -%}
+      {% include post-language-filter.html %}
+    </div>
     <ul class="post-list">
       {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+      {%- for post in site.posts -%}
+      <li data-post-lang="{{ post.lang | default: site.lang }}"{% if post.lang == 'it' %} hidden{% endif %}>
+        <span class="post-meta">{{ post.date | date: date_format }} · {% include article-language.html article=post %}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link" lang="{{ post.lang | default: site.lang }}" hreflang="{{ post.lang | default: site.lang }}" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          <div lang="{{ post.lang | default: site.lang }}">{{ post.excerpt }}</div>
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
-
+    <nav class="language-pager" data-filter-pager aria-label="Writing pages" hidden>
+      <button type="button" data-page-previous>Previous</button>
+      <span data-page-status aria-live="polite"></span>
+      <button type="button" data-page-next>Next</button>
+    </nav>
+  </section>
 </div>

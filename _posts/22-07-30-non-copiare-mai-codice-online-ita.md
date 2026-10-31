@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: it
 title: "Non copiare mai codice online! (ITA)"
 date:   2022-07-30 11:00:58 +0100
 categories: [hacking,ita]

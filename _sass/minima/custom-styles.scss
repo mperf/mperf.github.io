@@ -1,2 +1,257 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// Reading improvements within the existing Minima theme.
+.post-content {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+
+  p, ul, ol, blockquote {
+    margin-bottom: 1.25em;
+  }
+
+  li > ul, li > ol {
+    margin-bottom: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+    scroll-margin-top: 1.5rem;
+  }
+
+  img {
+    height: auto;
+  }
+
+  pre {
+    max-width: 100%;
+    box-sizing: border-box;
+    line-height: 1.5;
+    white-space: pre;
+    overflow-wrap: normal;
+  }
+
+  pre code {
+    white-space: inherit;
+    overflow-wrap: normal;
+  }
+
+  // Wide tables scroll independently of the article, including on desktop.
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+.post-meta {
+  line-height: 1.6;
+}
+
+.article-back {
+  font-size: $small-font-size;
+}
+
+a:focus-visible, input:focus-visible {
+  outline: 2px solid $link-base-color;
+  outline-offset: 4px;
+}
+
+.page-link[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: -10000px;
+  z-index: 10;
+  padding: 0.5rem 1rem;
+  background: $background-color;
+
+  &:focus {
+    left: 1rem;
+  }
+}
+
+// Keep the existing checkbox menu reachable with Tab and Space on mobile.
+.site-nav .nav-trigger {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+}
+
+.site-nav .nav-trigger:focus-visible + label {
+  outline: 2px solid $link-base-color;
+  outline-offset: 2px;
+}
+
+@media screen and (min-width: $on-medium) {
+  .site-nav .nav-trigger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $on-palm) {
+  .post-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+// Preserve the hidden state even when theme selectors set display explicitly.
+[hidden] {
+  display: none !important;
+}
+
+.post-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  padding: 0.75rem 0 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid $border-color-01;
+
+  .post-list-heading {
+    margin: 0;
+  }
+
+  .post-filter {
+    margin: 0;
+  }
+}
+
+.post-filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.language-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-height: 44px;
+  padding: 0.25rem 0.625rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: $text-color;
+  font: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+
+  &:hover {
+    background: mix($link-base-color, $background-color, 5%);
+  }
+
+  &[aria-checked="true"] {
+    color: darken($link-base-color, 12%);
+    background: mix($link-base-color, $background-color, 7%);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-base-color;
+    outline-offset: 3px;
+  }
+}
+
+.language-toggle-track {
+  position: relative;
+  width: 32px;
+  height: 18px;
+  flex: 0 0 32px;
+  border-radius: 999px;
+  background: $brand-color;
+  transition: background-color 150ms ease;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: $background-color;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: transform 150ms ease;
+  }
+}
+
+.language-toggle[aria-checked="true"] .language-toggle-track {
+  background: $link-base-color;
+
+  &::after {
+    transform: translateX(14px);
+  }
+}
+
+.language-pager button {
+  min-height: 44px;
+  padding: 0.45rem 0.875rem;
+  border: 1px solid $border-color-01;
+  border-radius: 6px;
+  background: $background-color;
+  color: $text-color;
+  font: inherit;
+  font-size: $small-font-size;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid $link-base-color;
+    outline-offset: 3px;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post-list-header .post-filter {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .language-toggle-track, .language-toggle-track::after {
+    transition: none;
+  }
+}
+
+.language-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.homelab-build-photos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: start;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}

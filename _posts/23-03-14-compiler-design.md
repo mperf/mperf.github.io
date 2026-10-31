@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: it
 title: "Introduzione al compiler design: compilatore per LC-2 "
 date:   2023-03-14 11:00:58 +0100
 categories: [projects,ita]

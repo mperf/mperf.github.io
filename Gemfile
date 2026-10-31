@@ -5,6 +5,9 @@ source "https://rubygems.org"
 # Check github versions: https://pages.github.com/versions/
 gem "github-pages", group: :jekyll_plugins
 
+# Jekyll 3 needs an explicit HTTP server dependency on Ruby 3.
+gem "webrick", "~> 1.8"
+
 group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-paginate'

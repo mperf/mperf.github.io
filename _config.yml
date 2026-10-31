@@ -23,8 +23,8 @@ minima:
     telegram: Perf21
 
 header_pages:
+  - index.html
   - about.markdown
-  - categories.html
 
 plugins:
   - jekyll-feed

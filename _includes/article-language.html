@@ -1,0 +1,2 @@
+{%- assign article_language = include.article.lang | default: site.lang | default: 'en' -%}
+<span class="article-language">{% case article_language %}{% when 'it' %}<span lang="it">Italiano</span>{% when 'en' %}<span lang="en">English</span>{% else %}{{ article_language | escape }}{% endcase %}</span>

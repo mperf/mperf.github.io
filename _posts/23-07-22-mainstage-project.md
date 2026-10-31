@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: it
 title: "Mainstage: a Social Network for Music"
 date:   2023-07-22 17:00:58 +0100
 categories: [projects, ita]

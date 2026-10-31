@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Path Traversal Challenge"
 date:   2022-03-09 17:16:58 +0100
 categories: [hacking]
